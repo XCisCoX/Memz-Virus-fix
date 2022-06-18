@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{19732c7d-705d-4121-a363-5d620a2c9489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Payloads">
+      <UniqueIdentifier>{8bda0d42-7a3f-458a-add2-facd90f6b826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Destructive">
+      <UniqueIdentifier>{9641c84d-93dd-48d2-9913-1b43c1c0e955}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Destructive\Destructive.h">
+      <Filter>Source Files\Destructive</Filter>
+    </ClInclude>
+    <ClInclude Include="Payloads\Payloads.h">
+      <Filter>Source Files\Payloads</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MEMZ.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memz Virus Fixed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructive\KillWindows.c">
+      <Filter>Source Files\Destructive</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructive\Main.c">
+      <Filter>Source Files\Destructive</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructive\ProcessWatchdog.c">
+      <Filter>Source Files\Destructive</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadCrazyBus.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadCursor.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadDrawErrors.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadExecute.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadInvert.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadKeyboard.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadMessageBox.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadReverseText.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\Payloads.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadScreenGlitches.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadSound.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Payloads\PayloadTunnel.c">
+      <Filter>Source Files\Payloads</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\MsgBoxHook.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Random.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\StrReverse.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Memz Virus Fixed.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
